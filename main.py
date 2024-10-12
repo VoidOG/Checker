@@ -22,7 +22,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def check_website():
-    url = "https://bloodxteam.com/f.php"
+    url = "https://bloodxteam.com"
     try:
         response = requests.get(url)
         if response.status_code == 200:
